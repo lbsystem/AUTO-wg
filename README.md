@@ -1,5 +1,5 @@
 # AUTO-wg
-这个是一个自动化处理wireguard端口出现故障的程序
+这个带是一个带webUI界面的自动化处理wireguard端口出现故障的程序
 
 
 ## 使用方法
