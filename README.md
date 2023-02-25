@@ -10,9 +10,11 @@
  * *  passwd 这个为通讯密码 需要和config password设置一致
  * 设置一个netwatch
  *  * host=<对端wg接口IP> type=icmp interval=10s timeout=100ms start-delay=10s 
-     up-script="" down-script=:delay 4s\r\n/system script run <wg脚本名字>\r\n:delay 
-            5s\r\n/tool/netwatch/disable [find 
-            comment=wg]\r\n/tool/netwatch/enable [find comment=wg] 
+     up-script="" down-script=:delay 4s
+     /system script run <wg脚本名字>
+     :delay 5s
+     /tool/netwatch/disable [find comment=wg]
+     /tool/netwatch/enable [find comment=wg] 
      test-script="" packet-interval=100ms packet-count=6 http-codes="" 
      status=up
  
