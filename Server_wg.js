@@ -20,7 +20,12 @@ function handle(req,res){
             res.end("not")
             return;
         }
-        cp.execSync(`wg set ${interface} listen-port ${port}`)
+        try{
+            cp.execSync(`wg set ${interface} listen-port ${port}`)
+        }catch(e){
+            console.log(e)
+        }
+        
         // cp.execSync(`wg-quick down ${config.ros.interface}`)
         // cp.execSync(`wg-quick up ${config.ros.interface}`)
        
