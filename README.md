@@ -9,7 +9,8 @@
  * * localinterface "xxxx" 这个为ROS wg接口名字
  * *  passwd 这个为通讯密码 需要和config password设置一致
  * 设置一个netwatch
- *  * host=<对端wg接口IP> type=icmp interval=10s timeout=100ms start-delay=10s <br />
+ *  * host=<对端wg接口IP> <br />
+     type=icmp interval=10s timeout=100ms start-delay=10s <br />
      up-script="" down-script=:delay 4s<br />
      /system script run <wg脚本名字><br />
      :delay 5s<br />
