@@ -21,3 +21,4 @@
      status=up<br />
  
 
+## 如没有Node 运行环境可直接下载release 里发布编译好的可执行文件
