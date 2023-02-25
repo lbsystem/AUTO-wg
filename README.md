@@ -24,5 +24,5 @@
      
 ##### 更换这个URL 为你的ip:port /tool/fetch url="`http://xxxx:xxxx/ros`?passwd=$passwd&port=$port&interface=$remoteinterface" as-value output=user
  
-
+### 如是7.7以后版本的ROS 脚本里面必须勾选 Don't Require Permissions 选项
 ## 如没有Node 运行环境可直接下载release 里发布编译好的可执行文件
