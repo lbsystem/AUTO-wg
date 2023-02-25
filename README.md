@@ -1,16 +1,13 @@
 # AUTO-wg for Mikrotik
-这是一个带webUI界面的自动化处理wireguard端口出现故障的程序<br />
-##### This is a program with a web UI for automatically handling wireguard port failures
-There are two operating modes. One is the full automatic mode, which requires the routerOS username and password and the public address. The second is the semi-automatic mode, which is suitable for users without a public address.<br />
-This program is developed using node.js, html, css3, Mikrotik shell,and bash.<br />
-If you need to run the node.js code directly, you need to deploy a node.js environment. If you don't have a node.js runtime environment or you don't want to deploy it, here we also provide a compiled executable file that you can use directly.
-
+这是一个自动化处理wireguard端口出现故障的程序<br />
 
 ## 使用方法
+ * 三个文件其实wg_server是运行在linux上基于http作为和ros的通讯
+ * confing.ini 里面设置通讯密码和服务端口
+ * 两个ros脚本文件
+ 
+ * * remoteinterface "xxxx" 这个为linux wg接口名字
+ * * localinterface "xxxx" 这个为ROS wg接口名字
+ * *  passwd 这个为通讯密码 需要和config password设置一致
+ 
 
-* ### 打算复
-  
-      --
-      --
-      --
-* 发生大包
