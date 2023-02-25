@@ -2,6 +2,7 @@
 这是一个自动化处理wireguard端口出现故障的程序<br />
 
 ## 使用方法
+* 把 ros_wg.rsc 保存到RouterOS 的脚本里面 可以复制粘贴
  * 两个个文件其中server_wg是运行在linux上基于http和ros的通讯
  * confing.ini 里面设置通讯密码和服务端口
  * 一个ros脚本文件
