@@ -11,8 +11,8 @@
  * 设置一个netwatch
  *  * host=<对端wg接口IP> <br />
      type=icmp interval=10s timeout=100ms start-delay=10s <br />
-     up-script="" down-script=:delay 4s<br />
-     /system script run <wg脚本名字><br />
+      down-script=:delay 4s<br />
+     /system script run <ROS脚本名字><br />
      :delay 5s<br />
      /tool/netwatch/disable [find comment=wg]<br />
      /tool/netwatch/enable [find comment=wg] <br />
