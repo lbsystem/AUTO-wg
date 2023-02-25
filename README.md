@@ -8,7 +8,7 @@
  * * remoteinterface "xxxx" 这个为linux wg接口名字
  * * localinterface "xxxx" 这个为ROS wg接口名字
  * *  passwd 这个为通讯密码 需要和config password设置一致
- * * 注意修改脚本里的url 对应为你的ip:port
+ * * 注意修改ROS脚本里的url 对应为你的ip:port
  * 设置一个netwatch
  *  * host=<对端wg接口IP> <br />
      type=icmp interval=10s timeout=100ms start-delay=10s <br />
