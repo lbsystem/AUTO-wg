@@ -6,7 +6,7 @@
 * * 重命名后记得在netwatch 上设置对应的脚本名字
  * 两个个文件其中server_wg是运行在linux上基于http和ros的通讯
  * confing.ini 里面设置通讯密码和服务端口
- * 一个ros脚本文件
+ * 这个ros_wg.rsc脚本文件
  * * remoteinterface "xxxx" 这个为linux wg接口名字
  * * localinterface "xxxx" 这个为ROS wg接口名字
  * *  passwd 这个为通讯密码 需要和config password设置一致
