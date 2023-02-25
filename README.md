@@ -20,7 +20,7 @@
      test-script="" packet-interval=100ms packet-count=6 http-codes="" <br />
      status=up<br />
      
-##### 更换这个URL 为你的ip:port /tool/fetch url="#http://xxxx:xxxx/ros#?passwd=$passwd&port=$port&interface=$remoteinterface" as-value output=user
+##### 更换这个URL 为你的ip:port /tool/fetch url="`http://xxxx:xxxx/ros`?passwd=$passwd&port=$port&interface=$remoteinterface" as-value output=user
  
 
 ## 如没有Node 运行环境可直接下载release 里发布编译好的可执行文件
