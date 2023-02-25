@@ -3,6 +3,7 @@
 
 ## 使用方法
 * 把 ros_wg.rsc 保存到RouterOS 的脚本里面 可以复制粘贴
+* * 重命名后记得在netwatch 上设置对应的脚本名字
  * 两个个文件其中server_wg是运行在linux上基于http和ros的通讯
  * confing.ini 里面设置通讯密码和服务端口
  * 一个ros脚本文件
